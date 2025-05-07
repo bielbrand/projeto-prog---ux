@@ -4,7 +4,11 @@
 
 ## Nome do Projeto
 
+Task organizor
+
 #### Autor do projeto
+
+Gabriel Brand Goldsztajn
 
 ## Sumário
 
@@ -72,7 +76,21 @@ _Adicione as setas e explicações sobre como os dados fluem entre o Model, Cont
 
 ### 3.3. Wireframes (Semana 03)
 
-_Posicione aqui as imagens do wireframe construído para sua solução e, opcionalmente, o link para acesso (mantenha o link sempre público para visualização)._
+<div align="center">
+    <small><strong style="font-size: 12px;">wireframe1(Figura 1);</strong></small><br>
+        <img src="/assets/IMG_3928.jpeg">
+    <small style="margin-top: 4px; font-size: 10px;">Fonte: Material produzido pelos autores (2025)</small>
+</div>
+
+Permite ao usuário visualizar tarefas com prazos indicados. O ícone de lembrete ao lado de cada tarefa mostra se o lembrete está ativo, atendendo à parte da User Story que trata de notificações automáticas.
+
+<div align="center">
+    <small><strong style="font-size: 12px;">wirefram2(Figura 1);</strong></small><br>
+        <img src="/assets/IMG_3929.jpeg">
+    <small style="margin-top: 4px; font-size: 10px;">Fonte: Material produzido pelos autores (2025)</small>
+</div>
+
+Esse desenho evidencia os campos de data, dando ao usuário, controle sobre quando será notificado. Isso garante que ele possa organizar suas atividades dentro do tempo previsto, exatamente como descrito na User Story.
 
 ### 3.4. Guia de estilos (Semana 05)
 
