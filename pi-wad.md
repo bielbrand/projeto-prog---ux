@@ -54,9 +54,14 @@ US03: Como usuário que acompanha meu próprio progresso, quero visualizar o sta
 
 ### 3.1. Modelagem do banco de dados (Semana 3)
 
-_Posicione aqui os diagramas de modelos relacionais do seu banco de dados, apresentando todos os esquemas de tabelas e suas relações. Utilize texto para complementar suas explicações, se necessário._
+<div align="center">
+    <small><strong style="font-size: 12px;">Banco de dados(Figura 1);</strong></small><br>
+        <img src="/assets/foto_banco.png">
+    <small style="margin-top: 4px; font-size: 10px;">Fonte: Material produzido pelos autores (2025)</small>
+</div>
 
-_Posicione também o modelo físico com o Schema do BD (arquivo .sql)_
+  o modelo físico com o Schema do BD (arquivo .sql)
+<a href="/scripts/Untitled.sql">Clique aqui</a>  (arquivo .sql)
 
 ### 3.1.1 BD e Models (Semana 5)
 
