@@ -60,6 +60,24 @@ US03: Como usuário que acompanha meu próprio progresso, quero visualizar o sta
     <small style="margin-top: 4px; font-size: 10px;">Fonte: Material produzido pelos autores (2025)</small>
 </div>
 
+A tabela “users” armazena os dados dos usuários do aplicativo. Ela possui três atributos: 
+ID, que é um identificador único gerado automaticamente (chave primária)
+Nome, que armazena o nome do usuário com até 40 caracteres
+CPF, que representa o Cadastro de Pessoa Física. 
+Cada usuário pode estar associado a várias tarefas, o que caracteriza uma relação de um para muitos com a tabela tasks. Com isso, falta um campo de chave estrangeira em tasks que aponte para users. 
+
+A tabela tasks guarda as tarefas dos usuários. Ela possui os atributos:
+id (chave primária) 
+Nome (nome da tarefa) 
+Complemento (descrição detalhada da tarefa)
+Prazo (data e hora limite)
+Para representar corretamente os relacionamentos, seria necessário incluir os campos user_id (chave estrangeira para users.ID) e category_id (chave estrangeira para categories.id). Assim, cada tarefa pode ser relacionada a um usuário e a uma categoria. 
+
+A tabela categories contém as categorias que podem ser atribuídas às tarefas, permitindo a organização por tipo. Ela tem dois atributos: 
+id (chave primária) 
+Categoria, que armazena o nome da categoria. 
+No modelo atual, a tabela categories não está diretamente conectada à tabela tasks, e esse relacionamento precisaria ser adicionado por meio de uma chave estrangeira em tasks. Cada tarefa pertence a um único usuário e a uma única categoria.
+
   o modelo físico com o Schema do BD (arquivo .sql)
 <a href="/scripts/Untitled.sql">Clique aqui</a>  (arquivo .sql)
 
