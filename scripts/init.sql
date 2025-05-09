@@ -15,3 +15,11 @@ CREATE TABLE "categories" (
   "id" integer PRIMARY KEY,
   "Categoria" varchar
 );
+
+INSERT INTO "users" (
+  "Nome",
+  "CPF"
+) VALUES
+('Lucas', 123456789),
+('Ana', 987654321),
+('João', 456789123);
