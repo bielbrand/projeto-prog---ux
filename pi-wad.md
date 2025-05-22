@@ -117,11 +117,11 @@ Esse desenho evidencia os campos de data, dando ao usuário, controle sobre quan
 
 ### 3.4. Guia de estilos (Semana 05)
 
-_Descreva aqui orientações gerais para o leitor sobre como utilizar os componentes do guia de estilos de sua solução._
+<img src="../projeto-prog---ux/assets/Screenshot 2025-05-22 084825.png">
 
 ### 3.5. Protótipo de alta fidelidade (Semana 05)
 
-_Posicione aqui algumas imagens demonstrativas de seu protótipo de alta fidelidade e o link para acesso ao protótipo completo (mantenha o link sempre público para visualização)._
+<img src="/assets/Desktop - 1.png">
 
 ### 3.6. WebAPI e endpoints (Semana 05)
 
